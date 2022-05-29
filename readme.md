@@ -1,6 +1,6 @@
 download C/C++ compiler from below link
 
-https://nuwen.net/files/mingw/mingw-18.0-without-git.exe
+<https://nuwen.net/files/mingw/mingw-18.0-without-git.exe>
 
 save in c:/
 
@@ -9,7 +9,6 @@ add window path :
 
 test on cmd:
  g++  --version
-
 
 VSCode configuration:
   install Code Runner
@@ -20,4 +19,4 @@ VSCode configuration:
 ########### Data Structure #############
 
 1) Abstract Data Type
-2)
+2) Array - Traverse, insert, delete, search
