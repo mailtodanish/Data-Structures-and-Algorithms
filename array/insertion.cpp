@@ -25,6 +25,20 @@ int indInsertion(int arr[], int size, int element, int capasity, int index)
     arr[index] = element;
     return 1;
 }
+
+// shift element
+int indDeleion(int arr[], int size,  int index)
+{
+
+    for (int i = index; i <= size - index; i++)
+    {
+
+        arr[i] = arr[i + 1];
+    }
+
+    return 1;
+}
+
 int main()
 {
     int arr[100] = {1, 2, 3, 5};
@@ -36,5 +50,10 @@ int main()
         size++;
         display(arr, size);
     }
+    indDeleion(arr, size,   0);
+    size--;
+    cout << "\n";
+    display(arr, size);
+
     return 0;
 }
